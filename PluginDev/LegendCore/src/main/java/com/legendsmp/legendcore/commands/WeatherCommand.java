@@ -7,8 +7,8 @@ import org.bukkit.command.CommandSender;
 import static org.bukkit.Bukkit.getLogger;
 
 public class WeatherCommand implements CommandExecutor {
-    @java.lang.Override
-    public boolean onCommand(CommandSender commandSender, Command command, String s, java.lang.String[] strings) {
+    @Override
+    public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings) {
         return false;
     }
 }
