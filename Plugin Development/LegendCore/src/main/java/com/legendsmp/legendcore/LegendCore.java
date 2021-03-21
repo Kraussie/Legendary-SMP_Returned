@@ -6,12 +6,15 @@ public final class LegendCore extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
 
+        // Notify console that LegendCore has been fully enabled
+        getLogger().info("LegendCore ENABLED");
     }
 
     @Override
     public void onDisable() {
-        // Plugin shutdown logic
+
+        // Notify console that LegendCore has been fully disabled
+        getLogger().info("LegendCore DISABLED");
     }
 }
