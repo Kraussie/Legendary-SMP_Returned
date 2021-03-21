@@ -7,3 +7,31 @@
 
 ## LegendCore Plugin
 * To change the version of the plugin, edit the pom.xml file
+
+## To Do List
+**Commands: **
+- [ ] /weather
+- [ ] /seen
+- [ ] /nick
+- [ ] /feed, /heal
+- [ ] /suicide
+- [ ] /fly
+- [ ] /top
+- [ ] /hat
+- [ ] /rules
+- [ ] /help
+- [ ] /spawn
+- [ ] /jump
+- [ ] /echest, /enderchest
+- [ ] /invsee
+- [ ] /tpa, /tpaaccept, /tpahere, /back
+- [ ] /home, /sethome, /delhome
+- [ ] /cash, /balance, /pay, /sell
+- [ ] /afk
+- [ ] /ban, /kick, /mute, /kickall, /tempban, / unban
+
+
+**Events: **
+- [X] Player Join / Leave
+- [X] Player Chat
+- [ ] Player Death
