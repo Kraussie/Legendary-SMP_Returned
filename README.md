@@ -13,8 +13,8 @@
 - [ ] /weather
 - [ ] /seen
 - [ ] /nick
-- [ ] /feed, /heal
-- [ ] /suicide
+- [X] /feed, /heal
+- [X] /suicide
 - [ ] /fly
 - [ ] /top
 - [ ] /hat
