@@ -7,7 +7,8 @@ description: This is the core plugin for Legendary SMP
 commands:
   suicide:
       description: Die fool.
-      usage: /suicide
+
   heal:
       description: Get some health!
-      usage: /heal
+  feed:
+      description: Lunch time!

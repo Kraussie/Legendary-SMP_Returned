@@ -1,6 +1,7 @@
 {
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:forest": "2021-03-22 16:59:21 -0400",
       "minecraft:savanna": "2021-03-21 18:57:46 -0400",
       "minecraft:plains": "2021-03-21 18:58:55 -0400"
     },

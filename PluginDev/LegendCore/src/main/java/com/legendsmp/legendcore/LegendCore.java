@@ -44,16 +44,29 @@ public final class LegendCore extends JavaPlugin {
         if (command.getName().equals("heal")) {
             if (sender instanceof Player) {
                 Player player = (Player) sender;
-                player.sendMessage("Here you go");
+                player.sendMessage("Here you go!");
                 player.setHealth(20);
             } else {
                 System.out.println("You need to be a player to do this command.");
+
+
+                if (command.getName().equals("feed")) {
+                    if (sender instanceof Player) {
+                        Player player = (Player) sender;
+                        player.sendMessage("Nom Nom");
+                        player.setFoodLevel(20);
+
+                    } else {
+                        System.out.println("You need to be a player to do this command.");
+
+                    }
+
+
+                }
+
                 return false;
             }
-
-
         }
-
         return false;
     }
 }
