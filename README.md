@@ -34,4 +34,4 @@
 **Events: **
 - [X] Player Join / Leave
 - [X] Player Chat
-- [ ] Player Death
+- [X] Player Death
