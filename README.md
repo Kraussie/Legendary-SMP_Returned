@@ -15,7 +15,7 @@
 - [ ] /nick
 - [X] /feed, /heal
 - [X] /suicide
-- [ ] /fly
+- [X] /fly
 - [ ] /top
 - [ ] /hat
 - [ ] /rules
