@@ -1,9 +1,6 @@
 package com.legendsmp.legendcore;
 
-import com.legendsmp.legendcore.commands.Flight;
-import com.legendsmp.legendcore.commands.HealAndFeedCommand;
-import com.legendsmp.legendcore.commands.SuicideCommand;
-import com.legendsmp.legendcore.commands.WeatherCommand;
+import com.legendsmp.legendcore.commands.*;
 import com.legendsmp.legendcore.events.PlayerChat;
 import com.legendsmp.legendcore.events.PlayerDeath;
 import com.legendsmp.legendcore.events.PlayerJoinQuit;
@@ -25,6 +22,7 @@ public final class LegendCore extends JavaPlugin {
         getCommand("feed").setExecutor(new HealAndFeedCommand());
         getCommand("suicide").setExecutor(new SuicideCommand());
         getCommand("weather").setExecutor(new WeatherCommand());
+        getCommand("nick").setExecutor(new NicknameCommand());
         // Notify console that LegendCore has been fully enabled
         getLogger().info("LegendCore ENABLED");
     }

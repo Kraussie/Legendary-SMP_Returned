@@ -18,3 +18,6 @@ commands:
   flight:
       description: Red bull gives you wings!
       aliases: [fly, flying]
+  nick:
+      description: Plastic surgery for words?
+      aliases: [nickname]

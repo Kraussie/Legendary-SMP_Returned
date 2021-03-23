@@ -10,7 +10,7 @@ public class PlayerChat implements Listener {
     @EventHandler
     public void PlayerChat(AsyncPlayerChatEvent event) {
         String msg = event.getMessage();
-        String name = event.getPlayer().getName();
+        String name = event.getPlayer().getDisplayName();
 
         String result = ChatColor.GREEN + name + ChatColor.GRAY + " > " + ChatColor.WHITE + msg;
         event.setMessage(result);
