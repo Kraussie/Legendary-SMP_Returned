@@ -1,6 +1,7 @@
 package com.legendsmp.legendcore;
 
 import com.legendsmp.legendcore.events.PlayerChat;
+import com.legendsmp.legendcore.events.PlayerDeath;
 import com.legendsmp.legendcore.events.PlayerJoinQuiz;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
@@ -14,7 +15,8 @@ public final class LegendCore extends JavaPlugin {
         // (2) Custom Event Listeners
         getServer().getPluginManager().registerEvents(new PlayerJoinQuiz(), this);
         getServer().getPluginManager().registerEvents(new PlayerChat(), this);
-
+        getServer().getPluginManager().registerEvents(new PlayerDeath(), this);
+        getCommand(). 
         // Notify console that LegendCore has been fully enabled
         getLogger().info("LegendCore ENABLED");
     }
@@ -31,7 +33,7 @@ public final class LegendCore extends JavaPlugin {
         if (command.getName().equals("suicide")) {
             if (sender instanceof Player) {
                 Player player = (Player) sender;
-                player.sendMessage("Bye Bye :D");
+                player.sendMessage("Bye Bye ( -_･) ︻デ═一");
                 player.setHealth(0);
 
             } else {
@@ -49,23 +51,21 @@ public final class LegendCore extends JavaPlugin {
             } else {
                 System.out.println("You need to be a player to do this command.");
 
-
-                if (command.getName().equals("feed")) {
-                    if (sender instanceof Player) {
-                        Player player = (Player) sender;
-                        player.sendMessage("Nom Nom");
-                        player.setFoodLevel(20);
-
-                    } else {
-                        System.out.println("You need to be a player to do this command.");
-
-                    }
-
-
-                }
-
                 return false;
             }
+        }
+
+        if (command.getName().equals("feed")) {
+            if (sender instanceof Player) {
+                Player player = (Player) sender;
+                player.sendMessage("Nom Nom");
+                player.setFoodLevel(20);
+
+            } else {
+                System.out.println("You need to be a player to do this command.");
+
+            }
+
         }
         return false;
     }
