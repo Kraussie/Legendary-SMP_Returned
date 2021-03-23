@@ -12,7 +12,7 @@
 **Commands: **
 - [ ] /weather
 - [ ] /seen
-- [ ] /nick
+- [X] /nick
 - [X] /feed, /heal
 - [X] /suicide
 - [X] /fly
