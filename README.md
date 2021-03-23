@@ -13,8 +13,8 @@
 - [ ] /weather
 - [ ] /seen
 - [ ] /nick
-- [ ] /feed, /heal
-- [ ] /suicide
+- [X] /feed, /heal
+- [X] /suicide
 - [ ] /fly
 - [ ] /top
 - [ ] /hat
@@ -34,4 +34,4 @@
 **Events: **
 - [X] Player Join / Leave
 - [X] Player Chat
-- [ ] Player Death
+- [X] Player Death
