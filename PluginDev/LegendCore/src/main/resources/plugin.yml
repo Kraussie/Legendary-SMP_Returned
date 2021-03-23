@@ -7,9 +7,14 @@ description: This is the core plugin for Legendary SMP
 commands:
   suicide:
       description: Die fool.
+      aliases: [kms, die]
   heal:
       description: Get some health!
   feed:
       description: Lunch time!
+      aliases: [food, hunger]
   weather:
       description: Gain the powers of Zeus!
+  flight:
+      description: Red bull gives you wings!
+      aliases: [fly, flying]
