@@ -19,7 +19,7 @@
 - [ ] /top
 - [ ] /hat
 - [ ] /rules
-- [ ] /help
+- [X] /help
 - [ ] /spawn
 - [ ] /jump
 - [ ] /echest, /enderchest
